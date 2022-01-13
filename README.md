@@ -6,4 +6,4 @@
 #### These scripts are in a raw BASH format. 
 
 
-##### SCRIPT_1 This script is a basic file cleanup that moves files older than 30 days. It also 
+##### SCRIPT_1 This script is a basic file cleanup that moves files older than 30 days. It also prompts user to confirm action before running.
