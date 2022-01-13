@@ -1,11 +1,9 @@
 #!/bin/bash
 
 ########################################################################################################################################################
-#Script Name : mvfile30
+#Script Name : MvFile30
 #Description : Moves files modified more than 30 days ago
-#Args        :
 #Author      : Thomas Hirneisen
-#Email       : Tom.Hirneisen@gmail.com
 ########################################################################################################################################################
 
 Filecount=`find /home/user/filestobemoved -type f -mtime +30 | wc -l`
