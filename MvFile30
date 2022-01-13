@@ -8,8 +8,8 @@
 #Email       : Tom.Hirneisen@gmail.com
 ########################################################################################################################################################
 
-Filecount=`find /home/thirneisen/filestobemoved -type f -mtime -30 | wc -l`
-MoveFiles=`find /home/thirneisen/filestobemoved -type f -mtime -30`
+Filecount=`find /home/user/filestobemoved -type f -mtime +30 | wc -l`
+MoveFiles=`find /home/user/filestobemoved -type f -mtime +30`
 
 if [[ $Filecount -gt 0 ]]
 
@@ -17,7 +17,7 @@ then
  echo
  echo "There are $Filecount files older that 30 days" 
  echo
- echo "Are you sure you would like to move $Filecount files to /home/thirneisen/movedfiles ?"
+ echo "Are you sure you would like to move $Filecount files to /home/user/movedfiles ?"
  echo 'a = yes, move the files'
  echo 'b = no, do not move the files'
 
@@ -25,8 +25,8 @@ then
 
         case $choices in
 
-a) mv $MoveFiles /home/thirneisen/movedfiles;;
-b) echo the files will remain in the directory /home/thirneisen/filestobemoved;;
+a) mv $MoveFiles /home/user/movedfiles;;
+b) echo the files will remain in the directory /home/user/filestobemoved;;
 *) echo Invalid choice;;
 
         esac
