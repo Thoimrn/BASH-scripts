@@ -1,3 +1,5 @@
+  readme.md
+  
   #!/bin/bash
 
   Filecount=`find /home/user/filestobemoved -type f -mtime +30 | wc -l`
