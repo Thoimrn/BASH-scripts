@@ -1,0 +1,15 @@
+#!/bin/bash
+
+###################################################################################################################################################
+#Script Name : BannerGrabServer
+#Description : Saves web server type of specific url as file
+#Author      : Thomas Hirneisen
+###################################################################################################################################################
+
+echo Input URL to find web server.
+echo
+read a
+echo
+echo Web server will be output to file /home/user/servertype/$a
+
+curl -s -I $a | grep -e "Server:" >> /home/user/servertype/$a                                                                                                                                                                                                                            
