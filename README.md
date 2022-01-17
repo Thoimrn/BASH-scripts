@@ -7,3 +7,5 @@
 
 
 ##### [SCRIPT_1](https://github.com/Thoimrn/BASH-scripts/blob/94b4cedf6846a9fefe555f99445fcfebdfb226eb/MvFile30) This script is a basic file cleanup that moves files modified more than 30 days ago. It prompts user to confirm action before running.
+
+##### [SCRIPT_2] This scripts pulls the server version from the response header of a select web url.
