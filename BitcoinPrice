@@ -1,0 +1,29 @@
+#!/bin/bash
+
+########################################################################################################################################################
+#Script Name : BitcoinPrice
+#Description : Displays current BTC price in USD, British Pound, and Euros.
+#Author      : Thomas Hirneisen
+########################################################################################################################################################
+
+curl https://api.coindesk.com/v1/bpi/currentprice.json | sed -e 's/[{}]/''g/' | awk -v k="text" '{n=split($0,a,","); for (i=1; i<=n; i++) print a[i]}' > /home/user/currentprice
+
+a=`cat /home/user/currentprice | tr ':' '\n' | sed -n -e 19p`
+b=`cat /home/user/currentprice | tr ':' '\n' | sed -n -e 30p`
+c=`cat /home/user/currentprice | tr ':' '\n' | sed -n -e 32p`
+d=`cat /home/user/currentprice | tr ':' '\n' | sed -n -e 42p`
+e=`cat /home/user/currentprice | tr ':' '\n' | sed -n -e 44p`
+f=`cat /home/user/currentprice | tr ':' '\n' | sed -n -e 54p`
+g=`cat /home/user/currentprice | tr ':' '\n' | sed -n -e 56p`
+
+echo
+echo
+echo The current price for a $a in $b is $c
+echo
+echo
+echo The current price for a $a in $d is $e
+echo
+echo
+echo The current price for a $a in $f is $g
+echo
+echo
