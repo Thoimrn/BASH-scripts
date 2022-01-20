@@ -6,7 +6,7 @@
 #Author      : Thomas Hirneisen
 ########################################################################################################################################################
 
-curl https://api.coindesk.com/v1/bpi/currentprice.json | sed -e 's/[{}]/''g/' | awk -v k="text" '{n=split($0,a,","); for (i=1; i<=n; i++) print a[i]}' > /home/user/currentprice
+curl -s https://api.coindesk.com/v1/bpi/currentprice.json | sed -e 's/[{}]/''g/' | awk -v k="text" '{n=split($0,a,","); for (i=1; i<=n; i++) print a[i]}' > /home/user/currentprice
 
 a=`cat /home/user/currentprice | tr ':' '\n' | sed -n -e 19p`
 b=`cat /home/user/currentprice | tr ':' '\n' | sed -n -e 30p`
