@@ -10,4 +10,4 @@
 
 ##### [SCRIPT_2](https://github.com/Thoimrn/BASH-scripts/blob/91eecde5aa5106c217d0321924f77fb39467fdab/BannerGrabServer) This scripts pulls the server version from the response header of a select web url and saves it as a file in the specified directory.
 
-##### [SCRIPT_3](https://github.com/Thoimrn/BASH-scripts/blob/60d9587097c0bc6a7318df668584a8bf05000866/BitcoinPrice) Using the free coindesk API, this script displays the price of a bitcoin in USD, British Pounds, and Euros.
+##### [SCRIPT_3](https://github.com/Thoimrn/BASH-scripts/blob/60d9587097c0bc6a7318df668584a8bf05000866/BitcoinPrice) Using the free coindesk API, this script displays the current price of a bitcoin in USD, British Pounds, and Euros.
