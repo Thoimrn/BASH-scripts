@@ -1,1 +1,27 @@
+#!/bin/bash
 
+########################################################################################################################################################
+#Script Name : MvFile30
+#Description : Moves files modified more than 30 days ago
+#Author      : Thomas Hirneisen
+########################################################################################################################################################
+
+sourcefile="/home/user/sourcefile"
+
+destination="/home/user/destination"
+
+date=$(date +%F)
+
+hostname=$(hostname)
+
+user=$(whoami)
+
+backupname="$user-$hostname-$date.tgz"
+
+echo "Backing up $sourcefile to $destination/$backupname"
+
+tar czf $destination/$backupname -P $sourcefile
+
+echo
+echo Backup Complete
+echo
