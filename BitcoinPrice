@@ -17,6 +17,7 @@ f=`cat /home/user/currentprice | tr ':' '\n' | sed -n -e 54p`
 g=`cat /home/user/currentprice | tr ':' '\n' | sed -n -e 56p`
 
 echo
+date
 echo
 echo The current price for a $a in $b is $c
 echo
