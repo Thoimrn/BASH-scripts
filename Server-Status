@@ -6,7 +6,7 @@
 #Author      : Thomas Hirneisen
 ########################################################################################################################################################
 
-iplist="/home/thirneisen/statuslist"
+iplist="/home/user/statuslist"
 
 for ip in $(cat $iplist)
 
