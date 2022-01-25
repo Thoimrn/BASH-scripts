@@ -1,0 +1,21 @@
+#!/bin/bash
+
+########################################################################################################################################################
+#Script Name : Server-Status
+#Description : Checks connectivity of remote servers
+#Author      : Thomas Hirneisen
+########################################################################################################################################################
+
+iplist="/home/thirneisen/statuslist"
+
+for ip in $(cat $iplist)
+
+do 
+  ping -c1 $ip &> /dev/null
+  if [ $? -eq 0 ]
+  then
+  echo Server $ip is currently online
+  else
+  echo -e "\e[1;31mServer $ip is currently offline\e[1;m"
+  fi
+done
