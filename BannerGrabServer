@@ -13,5 +13,3 @@ echo
 echo Web server will be output to file /home/user/servertype/$a
 
 curl -s -I $a | grep -e "Server:" >> /home/user/servertype/$a                 
-
-
