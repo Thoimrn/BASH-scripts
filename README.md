@@ -1,4 +1,4 @@
-## BASH-scripts
+## BASH scripts
 ##### By: Thomas Hirneisen
 
 ### This project is an example of some simple network and system administration scripts I have written.
