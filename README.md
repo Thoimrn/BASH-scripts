@@ -14,4 +14,4 @@
 
 ##### [SCRIPT_4](https://github.com/Thoimrn/BASH-scripts/blob/2e89ba7db96ca2a0584a31da3316f4776ef58ece/FileBackup) ~ This is a script that uses tape archive to backup and gzip to compress files.
 
-##### [SCRIPT_5](https://github.com/Thoimrn/BASH-scripts/blob/2e89ba7db96ca2a0584a31da3316f4776ef58ece/FileBackup) ~ A variation of Script 3, this script is designed to trigger an action if the price of a bitcoin is above or below $40,000. Using a job scheduler and a notification service this script can be used to send a buy signal. 
+##### [SCRIPT_5](https://github.com/Thoimrn/BASH-scripts/blob/1afaefebcd0b75f13ad05ef4ca2e9f35402e164e/Btc_OverUnder) ~ A variation of Script 3, this script is designed to trigger an action if the price of a bitcoin is above or below $40,000. Using a job scheduler and a notification service this script can be used to send a buy signal. 
