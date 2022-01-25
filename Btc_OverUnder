@@ -1,0 +1,21 @@
+#!/bin/bash
+
+########################################################################################################################################################
+#Script Name : Btc_OverUnder
+#Description : 
+#Author      : Thomas Hirneisen
+########################################################################################################################################################
+
+curl -s https://api.coindesk.com/v1/bpi/currentprice.json | sed -e 's/[{}]/''g/' | awk -v k="text" '{n=split($0,a,","); for (i=1; i<=n; i++) print a[i]}' > /home/user/currentprice
+
+btcprice=`cat /home/user/currentprice | tr ':' '\n' | sed -n -e 32p`
+
+triggerprice=40000
+
+if [ ${btcprice%.*} -gt $triggerprice ]
+then
+  echo "Btc price is greater than 40k"
+else
+  echo "Btc price is less than 40k"
+fi
+ 
