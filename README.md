@@ -8,7 +8,7 @@
 
 ##### [SCRIPT_1](https://github.com/Thoimrn/BASH-scripts/blob/94b4cedf6846a9fefe555f99445fcfebdfb226eb/MvFile30) ~ A basic file cleanup script that moves files modified more than 30 days ago. It prompts user to confirm action before running.
 
-##### [SCRIPT_2](https://github.com/Thoimrn/BASH-scripts/blob/f79d86290aa1fafa71c16b36acdea18a1b7c140a/BannerGrabServer) ~ This pulls the server version from the response header of a select web url and saves it as a file in the specified directory.
+##### [SCRIPT_2](https://github.com/Thoimrn/BASH-scripts/blob/8b539793b9210742d2b3295d53f81451c84a488e/BannerGrabServer) ~ This pulls the server version from the response header of a select web url and saves it as a file in the specified directory.
 
 ##### [SCRIPT_3](https://github.com/Thoimrn/BASH-scripts/blob/29d98323b2ae2f15d51c53edc16a82573b8e5d18/BitcoinPrice) ~ Using the free coindesk API, this script displays the current price of a bitcoin in USD, British Pounds, and Euros. 
 
