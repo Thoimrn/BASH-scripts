@@ -1,0 +1,38 @@
+#!/bin/bash
+
+########################################################################################################################################################
+#Script Name : North American Time
+#Description : Displays time for select North American time zones.
+#Author      : Thomas Hirneisen
+########################################################################################################################################################
+
+currentlocation=`curl -s "http://worldtimeapi.org/api/ip.txt" | sed -n -e 11p`
+
+echo
+echo "Your current $currentlocation"
+echo 
+echo
+echo "What time zone would you like the current time of?"
+echo
+echo 'a = Newfoundland'
+echo 'b = Atlantic'
+echo 'c = Eastern'
+echo 'd = Central'
+echo 'e = Mountain'
+echo 'f = Pacific'
+echo 'g = Alaska'
+echo
+  
+  read choices
+  case $choices in
+  
+a) curl -s "http://worldtimeapi.org/api/timezone/America/St_Johns.txt" | sed -n -e 1p -e 3p -e 11p;;
+b) curl -s "http://worldtimeapi.org/api/timezone/America/Goose_Bay.txt" | sed -n -e 1p -e 3p -e 11p;;
+c) curl -s "http://worldtimeapi.org/api/timezone/America/New_York.txt" | sed -n -e 1p -e 3p -e 11p;;
+d) curl -s "http://worldtimeapi.org/api/timezone/America/Chicago.txt" | sed -n -e 1p -e 3p -e 11p;;
+e) curl -s "http://worldtimeapi.org/api/timezone/America/Phoenix.txt" | sed -n -e 1p -e 3p -e 11p;;
+f) curl -s "http://worldtimeapi.org/api/timezone/America/Los_Angeles.txt" | sed -n -e 1p -e 3p -e 11p;;
+g) curl -s "http://worldtimeapi.org/api/timezone/America/Anchorage.txt" | sed -n -e 1p -e 3p -e 11p;;
+*) echo "Invalid choice"
+esac
+
