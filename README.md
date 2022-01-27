@@ -18,4 +18,4 @@
 
 ##### [SCRIPT_6](https://github.com/Thoimrn/BASH-scripts/blob/6a931f2b5dd773bd9d1bb7a818320b60c83370b7/Server-Status) ~ This script checks the connectivity of specified remote servers in a list file. Unreachable servers are displayed as offline in red text. 
 
-##### [SCRIPT_7](https://github.com/Thoimrn/BASH-scripts/blob/6a931f2b5dd773bd9d1bb7a818320b60c83370b7/Server-Status) ~ Using the free WorldTimeApi this script shows your current time zone and displays a select North American time zone.
+##### [SCRIPT_7](https://github.com/Thoimrn/BASH-scripts/blob/e60503bb84cf448fa0055c6e82553dc1f3ceb11c/NA_Time) ~ Using the free WorldTimeApi this script shows your current time zone and displays a select North American time zone.
