@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ########################################################################################################################################################
-#Script Name : BitcoinPrice
-#Description : Displays current BTC price in USD, British Pounds, and Euros.
+#Script Name : Encrypt
+#Description : Encrypts and decrypts files.
 #Author      : Thomas Hirneisen
 ########################################################################################################################################################
 
