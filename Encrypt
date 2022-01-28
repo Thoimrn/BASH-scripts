@@ -1,0 +1,36 @@
+#!/bin/bash
+
+########################################################################################################################################################
+#Script Name : BitcoinPrice
+#Description : Displays current BTC price in USD, British Pounds, and Euros.
+#Author      : Thomas Hirneisen
+########################################################################################################################################################
+
+echo
+echo What would you like to do?
+echo 'a = encrypt'
+echo 'b = decrypt'
+echo 
+  read choices
+  case $choices in
+  
+a) echo What is the name of the file you would like to encrypt?
+echo
+read d
+echo
+gpg -c $d
+rm $d
+
+echo $d has been encrypted;;
+
+b) echo What is the name of the file you would like to decrypt?
+echo
+read e
+echo
+gpg $e
+
+echo $e has been decrypted;;
+
+*) echo Invalid input;;
+esac
+
