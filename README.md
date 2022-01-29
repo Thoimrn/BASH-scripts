@@ -3,7 +3,7 @@
 
 ### This project is an example of some simple network and system administration scripts I have written.
 
-#### These scripts are in a BASH format. 
+#### These scripts are in BASH format. 
 
 
 ##### [SCRIPT_1](https://github.com/Thoimrn/BASH-scripts/blob/94b4cedf6846a9fefe555f99445fcfebdfb226eb/MvFile30) ~ A basic file cleanup script that moves files modified more than 30 days ago. It prompts user to confirm action before running.
