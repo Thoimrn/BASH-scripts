@@ -3,7 +3,7 @@
 
 ### This project is an example of some simple network and system administration scripts I have written.
 
-#### These scripts are in BASH format. Some of these scripts have been designed to be run in the background using a job scheduler. Others require user input and would be more appropriate to be run on demand by a user. They are examples of some basic bash structures, if-then, for loops, case statements etc.
+#### These scripts are in BASH format. Some of these scripts have been designed to be run in the background using a job scheduler. Others require user input and would be more appropriate to be run on demand by a user. They are examples of some basic script structures, if-then, for loops, case statements etc.
 
 
 ##### [SCRIPT_1](https://github.com/Thoimrn/BASH-scripts/blob/94b4cedf6846a9fefe555f99445fcfebdfb226eb/MvFile30) ~ A basic file cleanup script that moves files modified more than 30 days ago. It prompts user to confirm action before running.
