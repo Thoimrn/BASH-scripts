@@ -21,4 +21,4 @@
 ##### [SCRIPT_7](https://github.com/Thoimrn/BASH-scripts/blob/e60503bb84cf448fa0055c6e82553dc1f3ceb11c/NA_Time) ~ Using the free WorldTimeApi this script shows your current time zone and displays a select North American time zone.
 
 
-##### [SCRIPT_8](https://github.com/Thoimrn/BASH-scripts/blob/10d756e0b21233a3958b7e9b4236c3a86f4b261b/Encrypt) ~ A basic file encryption script that uses GNU Privacy Guard (gpg) to encrypt and decrypt files with a passphrase. 
+##### [SCRIPT_8](https://github.com/Thoimrn/BASH-scripts/blob/8857449f344e20b07755752abd6154eaba1fb3da/Encrypt) ~ A basic file encryption script that uses GNU Privacy Guard (gpg) to encrypt and decrypt files with a passphrase. 
